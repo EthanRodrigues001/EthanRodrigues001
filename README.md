@@ -13,7 +13,7 @@ const stack = ['JavaScript', 'React', 'Expressjs', 'EJS', 'Mongodb','Tailwindcss
 console.log(`The languages I use: ${stack.join(', ')}`);
 ```
 
-###My Work Cycle
+<h4>My Work Cycle</h4>
 
 ```flow
 st=>start: Me
@@ -26,7 +26,7 @@ cond(yes)->e
 cond(no)->e
 ```
 
-###Quote
+<h4>Quote</h4>
 
 > "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it."。~Bill Gates
 
