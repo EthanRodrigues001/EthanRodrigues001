@@ -1,16 +1,32 @@
-## Hi there 👋
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
+<h3>Welcome to my GitHub Profile! </h3>
+<p align="center">
+  <a href="https://www.ethan.blingo.tech/">
+    <img width="100" src="https://raw.githubusercontent.com/EthanRodrigues001/EthanRodrigues001/main/logo.png" alt="logo" />
+  </a>
+</p>
+<p>I’m Ethan Rodrigues, an engineering student with a passion for web development. My coding journey began when I noticed top-tier Discord bots featuring web dashboards for configuration. From there, I dove into the world of JavaScript.</p>
 
-<!--
-**EthanRodrigues001/EthanRodrigues001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```javascript
+const stack = ['JavaScript', 'React', 'Expressjs', 'EJS', 'Mongodb','Tailwindcss', 'Css', 'Html-5', 'C', 'C++'];
 
-Here are some ideas to get you started:
+console.log(`The languages I use: ${stack.join(', ')}`);
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+###My Work Cycle
+
+```flow
+st=>start: Me
+op=>operation: Work on a project...
+cond=>condition: Successfully working Yes or No?
+e=>end: Sleep / Sleep Anyways
+
+st->op->cond
+cond(yes)->e
+cond(no)->e
+```
+
+###Quote
+
+> "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it."。~Bill Gates
+
