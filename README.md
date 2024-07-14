@@ -15,15 +15,28 @@ console.log(`The languages I use: ${stack.join(', ')}`);
 
 <h4>My Work Cycle</h4>
 
-```flow
-st=>start: Me
-op=>operation: Work on a project...
-cond=>condition: Successfully working Yes or No?
-e=>end: Sleep / Sleep Anyways
-
-st->op->cond
-cond(yes)->e
-cond(no)->e
+```
+              ┌─────┐                    
+              │  Me │                    
+              └──┬──┘                    
+                 │                       
+                 │                       
+                 │                       
+      ┌──────────▼─────────┐             
+      │Work on a project...│             
+      └──────────┬─────────┘             
+                 │                       
+┌────────────────▼────────────────┐      
+│ Successfully working Yes or No? ├───┐  
+└────────────────┬────────────────┘   │no
+                 │yes                 │  
+                 │               ┌────┘  
+              ┌──┴──┐            │       
+              │sleep├─────────┐  └────┐  
+              └─────┘         │anyways│  
+                              └─┐     │  
+                                │     │  
+                                └─────┘  
 ```
 
 <h4>Quote</h4>
