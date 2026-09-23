@@ -17,10 +17,10 @@
 
 Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Navi Mumbai). I build production-grade SaaS in **TypeScript, Next.js and Postgres**, and lately a lot of **AI agents** with the Vercel AI SDK and Gemini.
 
-- 🔬 Research Intern @ **IISER Mohali**, predictive modelling with XGBoost / scikit-learn
+- 🦀 Systems side: **Rust** services (Axum + Tokio) and **Tauri** desktop apps
+- ⚙️ Ship it properly: **GitHub Actions** release pipelines, signed auto-updates, Docker deploys
 - 🧩 Built **LYX UI**, a shadcn-based React component library
 - 🏢 Founder of **Wisplabs**, a small web studio
-- 🤖 ML Head @ **AIDL Club, FCRIT**
 - 🎧 Off the keyboard: music and anime
 
 ## 🚀 Featured work
@@ -38,42 +38,65 @@ Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Nav
 
 ## 🧰 Tech stack
 
-**Core — every project**<br/>
+**Languages**<br/>
 <img alt="TypeScript" src="https://shieldcn.dev/badge/TypeScript-3178C6.svg?logo=typescript&variant=secondary" />
+<img alt="Rust" src="https://shieldcn.dev/badge/Rust-000000.svg?logo=rust&variant=secondary" />
+<img alt="Python" src="https://shieldcn.dev/badge/Python-3776AB.svg?logo=python&variant=secondary" />
+<img alt="JavaScript" src="https://shieldcn.dev/badge/JavaScript-F7DF1E.svg?logo=javascript&variant=secondary" />
+<img alt="SQL" src="https://shieldcn.dev/badge/SQL-4169E1.svg?logo=postgresql&variant=secondary" />
+
+**Frontend**<br/>
 <img alt="React" src="https://shieldcn.dev/badge/React-61DAFB.svg?logo=react&variant=secondary" />
 <img alt="Next.js" src="https://shieldcn.dev/badge/Next.js-000000.svg?logo=nextdotjs&variant=secondary" />
 <img alt="Tailwind CSS" src="https://shieldcn.dev/badge/Tailwind%20CSS-06B6D4.svg?logo=tailwindcss&variant=secondary" />
 <img alt="shadcn/ui" src="https://shieldcn.dev/badge/shadcn/ui-000000.svg?logo=shadcnui&variant=secondary" />
-<img alt="Zod" src="https://shieldcn.dev/badge/Zod-3E67B1.svg?logo=zod&variant=secondary" />
 <img alt="Motion" src="https://shieldcn.dev/badge/Motion-0055FF.svg?logo=framer&variant=secondary" />
+<img alt="Zod" src="https://shieldcn.dev/badge/Zod-3E67B1.svg?logo=zod&variant=secondary" />
 
-**Data & backend**<br/>
+**Backend & systems**<br/>
+<img alt="Node.js" src="https://shieldcn.dev/badge/Node.js-5FA04E.svg?logo=nodedotjs&variant=secondary" />
+<img alt="Axum" src="https://shieldcn.dev/badge/Axum-000000.svg?logo=rust&variant=secondary" />
+<img alt="Tokio" src="https://shieldcn.dev/badge/Tokio-000000.svg?logo=rust&variant=secondary" />
+<img alt="FastAPI" src="https://shieldcn.dev/badge/FastAPI-009688.svg?logo=fastapi&variant=secondary" />
+<img alt="WebAssembly" src="https://shieldcn.dev/badge/WebAssembly-654FF0.svg?logo=webassembly&variant=secondary" />
+<img alt="Socket.IO" src="https://shieldcn.dev/badge/Socket.IO-010101.svg?logo=socketdotio&variant=secondary" />
+
+**Data**<br/>
 <img alt="PostgreSQL" src="https://shieldcn.dev/badge/PostgreSQL-4169E1.svg?logo=postgresql&variant=secondary" />
 <img alt="Neon" src="https://shieldcn.dev/badge/Neon-00E599.svg?logo=neon&variant=secondary" />
 <img alt="Drizzle ORM" src="https://shieldcn.dev/badge/Drizzle%20ORM-C5F74F.svg?logo=drizzle&variant=secondary" />
-<img alt="Firebase" src="https://shieldcn.dev/badge/Firebase-FFCA28.svg?logo=firebase&variant=secondary" />
 <img alt="Supabase" src="https://shieldcn.dev/badge/Supabase-3FCF8E.svg?logo=supabase&variant=secondary" />
-<img alt="Node.js" src="https://shieldcn.dev/badge/Node.js-5FA04E.svg?logo=nodedotjs&variant=secondary" />
-<img alt="FastAPI" src="https://shieldcn.dev/badge/FastAPI-009688.svg?logo=fastapi&variant=secondary" />
+<img alt="Firebase" src="https://shieldcn.dev/badge/Firebase-FFCA28.svg?logo=firebase&variant=secondary" />
+<img alt="Redis" src="https://shieldcn.dev/badge/Redis-FF4438.svg?logo=redis&variant=secondary" />
+
+**Desktop & mobile**<br/>
+<img alt="Tauri" src="https://shieldcn.dev/badge/Tauri-24C8D8.svg?logo=tauri&variant=secondary" />
+<img alt="Electron" src="https://shieldcn.dev/badge/Electron-47848F.svg?logo=electron&variant=secondary" />
+<img alt="Expo" src="https://shieldcn.dev/badge/Expo-000020.svg?logo=expo&variant=secondary" />
+<img alt="React Native" src="https://shieldcn.dev/badge/React%20Native-61DAFB.svg?logo=react&variant=secondary" />
+<img alt="WXT extensions" src="https://shieldcn.dev/badge/WXT%20extensions-4285F4.svg?logo=googlechrome&variant=secondary" />
 
 **AI & ML**<br/>
 <img alt="Vercel AI SDK" src="https://shieldcn.dev/badge/Vercel%20AI%20SDK-000000.svg?logo=vercel&variant=secondary" />
 <img alt="Gemini" src="https://shieldcn.dev/badge/Gemini-8E75B2.svg?logo=googlegemini&variant=secondary" />
-<img alt="Python" src="https://shieldcn.dev/badge/Python-3776AB.svg?logo=python&variant=secondary" />
 <img alt="scikit-learn" src="https://shieldcn.dev/badge/scikit--learn-F7931E.svg?logo=scikitlearn&variant=secondary" />
 <img alt="XGBoost" src="https://shieldcn.dev/badge/XGBoost-337AB7.svg?logo=xgboost&variant=secondary" />
 <img alt="PyTorch" src="https://shieldcn.dev/badge/PyTorch-EE4C2C.svg?logo=pytorch&variant=secondary" />
 
-**Mobile, desktop & tooling**<br/>
-<img alt="Expo" src="https://shieldcn.dev/badge/Expo-000020.svg?logo=expo&variant=secondary" />
-<img alt="React Native" src="https://shieldcn.dev/badge/React%20Native-61DAFB.svg?logo=react&variant=secondary" />
-<img alt="Tauri" src="https://shieldcn.dev/badge/Tauri-24C8D8.svg?logo=tauri&variant=secondary" />
-<img alt="Rust" src="https://shieldcn.dev/badge/Rust-000000.svg?logo=rust&variant=secondary" />
-<img alt="Electron" src="https://shieldcn.dev/badge/Electron-47848F.svg?logo=electron&variant=secondary" />
+**CI/CD & infra**<br/>
+<img alt="GitHub Actions" src="https://shieldcn.dev/badge/GitHub%20Actions-2088FF.svg?logo=githubactions&variant=secondary" />
+<img alt="Docker" src="https://shieldcn.dev/badge/Docker-2496ED.svg?logo=docker&variant=secondary" />
+<img alt="Vercel" src="https://shieldcn.dev/badge/Vercel-000000.svg?logo=vercel&variant=secondary" />
+<img alt="Render" src="https://shieldcn.dev/badge/Render-000000.svg?logo=render&variant=secondary" />
 <img alt="Vite" src="https://shieldcn.dev/badge/Vite-646CFF.svg?logo=vite&variant=secondary" />
 <img alt="Vitest" src="https://shieldcn.dev/badge/Vitest-6E9F18.svg?logo=vitest&variant=secondary" />
-<img alt="Figma" src="https://shieldcn.dev/badge/Figma-F24E1E.svg?logo=figma&variant=secondary" />
-<img alt="Vercel" src="https://shieldcn.dev/badge/Vercel-000000.svg?logo=vercel&variant=secondary" />
+
+### ⚙️ How I ship
+
+- **Tagged releases → signed desktop builds.** In [Typeset](https://github.com/EthanRodrigues001/Typeset), pushing a `v*` tag runs a GitHub Actions workflow that sets up Node and the Rust toolchain, builds the Tauri app on Windows, signs it for the auto-updater with keys kept in repo secrets, and publishes a GitHub Release that installed copies update from.
+- **Containerised Rust service.** [Moss](https://github.com/EthanRodrigues001/Moss) runs a LaTeX compile backend written in Rust (Axum + Tokio). It ships as a Docker image on Render as infrastructure-as-code (`render.yaml`), with health checks, upload limits and compile timeouts.
+- **Deploy automation.** Vercel preview and production deploys on every project, plus a GitHub Actions deploy hook that works around Vercel's single-owner build limit on team repos.
+- **Quality gates.** TypeScript strict mode, ESLint/Biome, Vitest + Testing Library, Zod at API boundaries.
 
 ## 📈 Activity
 
