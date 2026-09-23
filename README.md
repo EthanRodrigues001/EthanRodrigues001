@@ -1,11 +1,11 @@
 ![Ethan Rodrigues](https://shieldcn.dev/header/surface.svg?title=Ethan+Rodrigues&subtitle=Full-Stack+%26+AI+Engineer+%C2%B7+Mumbai&logo=https%3A%2F%2Fraw.githubusercontent.com%2FEthanRodrigues001%2FEthanRodrigues001%2Fmain%2Flogo-mark.png&mode=dark&theme=slate&align=left&image=https%3A%2F%2Fres.cloudinary.com%2Fdhyvtqkof%2Fimage%2Fupload%2Ff_auto%2Fq_auto%2FPoster_rvd6gb.png&overlay=0.4)
 
 <p align="center">
-  <a href="https://ethan-rodrigues-portfolio-1fu1.vercel.app/"><img alt="Portfolio" src="https://shieldcn.dev/badge/Portfolio-black.svg?logo=vercel&variant=secondary" /></a>
-  <a href="https://www.linkedin.com/in/ethan-rodrigues25/"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-black.svg?logo=ri:RiLinkedinBoxFill&variant=secondary" /></a>
-  <a href="https://twitter.com/EthanRo97737635"><img alt="X" src="https://shieldcn.dev/badge/X-black.svg?logo=x&variant=secondary" /></a>
-  <a href="mailto:ethanrodrigues25@gmail.com"><img alt="Email" src="https://shieldcn.dev/badge/Email-black.svg?logo=gmail&variant=secondary" /></a>
-  <a href="https://cal.com/ethan-rodrigues"><img alt="Book a call" src="https://shieldcn.dev/badge/Book%20a%20call-black.svg?logo=caldotcom&variant=secondary" /></a>
+  <a href="https://ethan-rodrigues-portfolio-1fu1.vercel.app/"><img alt="Portfolio" src="https://shieldcn.dev/badge/Portfolio-000000.svg?logo=vercel&amp;logoColor=fff&amp;variant=branded&amp;brand=vercel&amp;size=xs" /></a>
+  <a href="https://www.linkedin.com/in/ethan-rodrigues25/"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-0A66C2.svg?logo=ri:RiLinkedinBoxFill&amp;logoColor=fff&amp;variant=branded&amp;size=xs" /></a>
+  <a href="https://twitter.com/EthanRo97737635"><img alt="X" src="https://shieldcn.dev/badge/X-000000.svg?logo=x&amp;logoColor=fff&amp;variant=branded&amp;brand=x&amp;size=xs" /></a>
+  <a href="mailto:ethanrodrigues25@gmail.com"><img alt="Email" src="https://shieldcn.dev/badge/Email-EA4335.svg?logo=gmail&amp;logoColor=fff&amp;variant=branded&amp;brand=gmail&amp;size=xs" /></a>
+  <a href="https://cal.com/ethan-rodrigues"><img alt="Book a call" src="https://shieldcn.dev/badge/Book%20a%20call-292929.svg?logo=caldotcom&amp;logoColor=fff&amp;variant=branded&amp;brand=caldotcom&amp;size=xs" /></a>
 </p>
 
 ## やあ, I'm Ethan 🐼
@@ -34,57 +34,57 @@ Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Nav
 ## 🧰 Tech stack
 
 **Languages**<br/>
-<img alt="TypeScript" src="https://shieldcn.dev/badge/TypeScript-3178C6.svg?logo=typescript&variant=secondary" />
-<img alt="Rust" src="https://shieldcn.dev/badge/Rust-000000.svg?logo=rust&variant=secondary" />
-<img alt="Python" src="https://shieldcn.dev/badge/Python-3776AB.svg?logo=python&variant=secondary" />
-<img alt="JavaScript" src="https://shieldcn.dev/badge/JavaScript-F7DF1E.svg?logo=javascript&variant=secondary" />
-<img alt="SQL" src="https://shieldcn.dev/badge/SQL-4169E1.svg?logo=postgresql&variant=secondary" />
+<img alt="TypeScript" src="https://shieldcn.dev/badge/TypeScript-3178C6.svg?logo=typescript&amp;logoColor=fff&amp;variant=branded&amp;brand=typescript&amp;size=xs" />
+<img alt="Rust" src="https://shieldcn.dev/badge/Rust-000000.svg?logo=rust&amp;logoColor=fff&amp;variant=branded&amp;brand=rust&amp;size=xs" />
+<img alt="Python" src="https://shieldcn.dev/badge/Python-3776AB.svg?logo=python&amp;logoColor=fff&amp;variant=branded&amp;brand=python&amp;size=xs" />
+<img alt="JavaScript" src="https://shieldcn.dev/badge/JavaScript-F7DF1E.svg?logo=javascript&amp;logoColor=fff&amp;variant=branded&amp;brand=javascript&amp;size=xs" />
+<img alt="SQL" src="https://shieldcn.dev/badge/SQL-4169E1.svg?logo=postgresql&amp;logoColor=fff&amp;variant=branded&amp;brand=postgresql&amp;size=xs" />
 
 **Frontend**<br/>
-<img alt="React" src="https://shieldcn.dev/badge/React-61DAFB.svg?logo=react&variant=secondary" />
-<img alt="Next.js" src="https://shieldcn.dev/badge/Next.js-000000.svg?logo=nextdotjs&variant=secondary" />
-<img alt="Tailwind CSS" src="https://shieldcn.dev/badge/Tailwind%20CSS-06B6D4.svg?logo=tailwindcss&variant=secondary" />
-<img alt="shadcn/ui" src="https://shieldcn.dev/badge/shadcn/ui-000000.svg?logo=shadcnui&variant=secondary" />
-<img alt="Motion" src="https://shieldcn.dev/badge/Motion-0055FF.svg?logo=framer&variant=secondary" />
-<img alt="Zod" src="https://shieldcn.dev/badge/Zod-3E67B1.svg?logo=zod&variant=secondary" />
+<img alt="React" src="https://shieldcn.dev/badge/React-61DAFB.svg?logo=react&amp;logoColor=fff&amp;variant=branded&amp;brand=react&amp;size=xs" />
+<img alt="Next.js" src="https://shieldcn.dev/badge/Next.js-000000.svg?logo=nextdotjs&amp;logoColor=fff&amp;variant=branded&amp;brand=nextdotjs&amp;size=xs" />
+<img alt="Tailwind CSS" src="https://shieldcn.dev/badge/Tailwind%20CSS-06B6D4.svg?logo=tailwindcss&amp;logoColor=fff&amp;variant=branded&amp;brand=tailwindcss&amp;size=xs" />
+<img alt="shadcn/ui" src="https://shieldcn.dev/badge/shadcn/ui-000000.svg?logo=shadcnui&amp;logoColor=fff&amp;variant=branded&amp;brand=shadcnui&amp;size=xs" />
+<img alt="Motion" src="https://shieldcn.dev/badge/Motion-0055FF.svg?logo=framer&amp;logoColor=fff&amp;variant=branded&amp;brand=framer&amp;size=xs" />
+<img alt="Zod" src="https://shieldcn.dev/badge/Zod-3E67B1.svg?logo=zod&amp;logoColor=fff&amp;variant=branded&amp;brand=zod&amp;size=xs" />
 
 **Backend & systems**<br/>
-<img alt="Node.js" src="https://shieldcn.dev/badge/Node.js-5FA04E.svg?logo=nodedotjs&variant=secondary" />
-<img alt="Axum" src="https://shieldcn.dev/badge/Axum-000000.svg?logo=rust&variant=secondary" />
-<img alt="Tokio" src="https://shieldcn.dev/badge/Tokio-000000.svg?logo=rust&variant=secondary" />
-<img alt="FastAPI" src="https://shieldcn.dev/badge/FastAPI-009688.svg?logo=fastapi&variant=secondary" />
-<img alt="WebAssembly" src="https://shieldcn.dev/badge/WebAssembly-654FF0.svg?logo=webassembly&variant=secondary" />
-<img alt="Socket.IO" src="https://shieldcn.dev/badge/Socket.IO-010101.svg?logo=socketdotio&variant=secondary" />
+<img alt="Node.js" src="https://shieldcn.dev/badge/Node.js-5FA04E.svg?logo=nodedotjs&amp;logoColor=fff&amp;variant=branded&amp;brand=nodedotjs&amp;size=xs" />
+<img alt="Axum" src="https://shieldcn.dev/badge/Axum-000000.svg?logo=rust&amp;logoColor=fff&amp;variant=branded&amp;brand=rust&amp;size=xs" />
+<img alt="Tokio" src="https://shieldcn.dev/badge/Tokio-000000.svg?logo=rust&amp;logoColor=fff&amp;variant=branded&amp;brand=rust&amp;size=xs" />
+<img alt="FastAPI" src="https://shieldcn.dev/badge/FastAPI-009688.svg?logo=fastapi&amp;logoColor=fff&amp;variant=branded&amp;brand=fastapi&amp;size=xs" />
+<img alt="WebAssembly" src="https://shieldcn.dev/badge/WebAssembly-654FF0.svg?logo=webassembly&amp;logoColor=fff&amp;variant=branded&amp;brand=webassembly&amp;size=xs" />
+<img alt="Socket.IO" src="https://shieldcn.dev/badge/Socket.IO-010101.svg?logo=socketdotio&amp;logoColor=fff&amp;variant=branded&amp;brand=socketdotio&amp;size=xs" />
 
 **Data**<br/>
-<img alt="PostgreSQL" src="https://shieldcn.dev/badge/PostgreSQL-4169E1.svg?logo=postgresql&variant=secondary" />
-<img alt="Neon" src="https://shieldcn.dev/badge/Neon-00E599.svg?logo=neon&variant=secondary" />
-<img alt="Drizzle ORM" src="https://shieldcn.dev/badge/Drizzle%20ORM-C5F74F.svg?logo=drizzle&variant=secondary" />
-<img alt="Supabase" src="https://shieldcn.dev/badge/Supabase-3FCF8E.svg?logo=supabase&variant=secondary" />
-<img alt="Firebase" src="https://shieldcn.dev/badge/Firebase-FFCA28.svg?logo=firebase&variant=secondary" />
-<img alt="Redis" src="https://shieldcn.dev/badge/Redis-FF4438.svg?logo=redis&variant=secondary" />
+<img alt="PostgreSQL" src="https://shieldcn.dev/badge/PostgreSQL-4169E1.svg?logo=postgresql&amp;logoColor=fff&amp;variant=branded&amp;brand=postgresql&amp;size=xs" />
+<img alt="Neon" src="https://shieldcn.dev/badge/Neon-00E599.svg?logo=neon&amp;logoColor=fff&amp;variant=branded&amp;brand=neon&amp;size=xs" />
+<img alt="Drizzle ORM" src="https://shieldcn.dev/badge/Drizzle%20ORM-C5F74F.svg?logo=drizzle&amp;logoColor=fff&amp;variant=branded&amp;brand=drizzle&amp;size=xs" />
+<img alt="Supabase" src="https://shieldcn.dev/badge/Supabase-3FCF8E.svg?logo=supabase&amp;logoColor=fff&amp;variant=branded&amp;brand=supabase&amp;size=xs" />
+<img alt="Firebase" src="https://shieldcn.dev/badge/Firebase-FFCA28.svg?logo=firebase&amp;logoColor=fff&amp;variant=branded&amp;brand=firebase&amp;size=xs" />
+<img alt="Redis" src="https://shieldcn.dev/badge/Redis-FF4438.svg?logo=redis&amp;logoColor=fff&amp;variant=branded&amp;brand=redis&amp;size=xs" />
 
 **Desktop & mobile**<br/>
-<img alt="Tauri" src="https://shieldcn.dev/badge/Tauri-24C8D8.svg?logo=tauri&variant=secondary" />
-<img alt="Electron" src="https://shieldcn.dev/badge/Electron-47848F.svg?logo=electron&variant=secondary" />
-<img alt="Expo" src="https://shieldcn.dev/badge/Expo-000020.svg?logo=expo&variant=secondary" />
-<img alt="React Native" src="https://shieldcn.dev/badge/React%20Native-61DAFB.svg?logo=react&variant=secondary" />
-<img alt="WXT extensions" src="https://shieldcn.dev/badge/WXT%20extensions-4285F4.svg?logo=googlechrome&variant=secondary" />
+<img alt="Tauri" src="https://shieldcn.dev/badge/Tauri-24C8D8.svg?logo=tauri&amp;logoColor=fff&amp;variant=branded&amp;brand=tauri&amp;size=xs" />
+<img alt="Electron" src="https://shieldcn.dev/badge/Electron-47848F.svg?logo=electron&amp;logoColor=fff&amp;variant=branded&amp;brand=electron&amp;size=xs" />
+<img alt="Expo" src="https://shieldcn.dev/badge/Expo-000020.svg?logo=expo&amp;logoColor=fff&amp;variant=branded&amp;brand=expo&amp;size=xs" />
+<img alt="React Native" src="https://shieldcn.dev/badge/React%20Native-61DAFB.svg?logo=react&amp;logoColor=fff&amp;variant=branded&amp;brand=react&amp;size=xs" />
+<img alt="WXT extensions" src="https://shieldcn.dev/badge/WXT%20extensions-4285F4.svg?logo=googlechrome&amp;logoColor=fff&amp;variant=branded&amp;brand=googlechrome&amp;size=xs" />
 
 **AI & ML**<br/>
-<img alt="Vercel AI SDK" src="https://shieldcn.dev/badge/Vercel%20AI%20SDK-000000.svg?logo=vercel&variant=secondary" />
-<img alt="Gemini" src="https://shieldcn.dev/badge/Gemini-8E75B2.svg?logo=googlegemini&variant=secondary" />
-<img alt="scikit-learn" src="https://shieldcn.dev/badge/scikit--learn-F7931E.svg?logo=scikitlearn&variant=secondary" />
-<img alt="XGBoost" src="https://shieldcn.dev/badge/XGBoost-337AB7.svg?logo=xgboost&variant=secondary" />
-<img alt="PyTorch" src="https://shieldcn.dev/badge/PyTorch-EE4C2C.svg?logo=pytorch&variant=secondary" />
+<img alt="Vercel AI SDK" src="https://shieldcn.dev/badge/Vercel%20AI%20SDK-000000.svg?logo=vercel&amp;logoColor=fff&amp;variant=branded&amp;brand=vercel&amp;size=xs" />
+<img alt="Gemini" src="https://shieldcn.dev/badge/Gemini-8E75B2.svg?logo=googlegemini&amp;logoColor=fff&amp;variant=branded&amp;brand=googlegemini&amp;size=xs" />
+<img alt="scikit-learn" src="https://shieldcn.dev/badge/scikit--learn-F7931E.svg?logo=scikitlearn&amp;logoColor=fff&amp;variant=branded&amp;brand=scikitlearn&amp;size=xs" />
+<img alt="XGBoost" src="https://shieldcn.dev/badge/XGBoost-337AB7.svg?logo=xgboost&amp;logoColor=fff&amp;variant=branded&amp;brand=xgboost&amp;size=xs" />
+<img alt="PyTorch" src="https://shieldcn.dev/badge/PyTorch-EE4C2C.svg?logo=pytorch&amp;logoColor=fff&amp;variant=branded&amp;brand=pytorch&amp;size=xs" />
 
 **CI/CD & infra**<br/>
-<img alt="GitHub Actions" src="https://shieldcn.dev/badge/GitHub%20Actions-2088FF.svg?logo=githubactions&variant=secondary" />
-<img alt="Docker" src="https://shieldcn.dev/badge/Docker-2496ED.svg?logo=docker&variant=secondary" />
-<img alt="Vercel" src="https://shieldcn.dev/badge/Vercel-000000.svg?logo=vercel&variant=secondary" />
-<img alt="Render" src="https://shieldcn.dev/badge/Render-000000.svg?logo=render&variant=secondary" />
-<img alt="Vite" src="https://shieldcn.dev/badge/Vite-646CFF.svg?logo=vite&variant=secondary" />
-<img alt="Vitest" src="https://shieldcn.dev/badge/Vitest-6E9F18.svg?logo=vitest&variant=secondary" />
+<img alt="GitHub Actions" src="https://shieldcn.dev/badge/GitHub%20Actions-2088FF.svg?logo=githubactions&amp;logoColor=fff&amp;variant=branded&amp;brand=githubactions&amp;size=xs" />
+<img alt="Docker" src="https://shieldcn.dev/badge/Docker-2496ED.svg?logo=docker&amp;logoColor=fff&amp;variant=branded&amp;brand=docker&amp;size=xs" />
+<img alt="Vercel" src="https://shieldcn.dev/badge/Vercel-000000.svg?logo=vercel&amp;logoColor=fff&amp;variant=branded&amp;brand=vercel&amp;size=xs" />
+<img alt="Render" src="https://shieldcn.dev/badge/Render-000000.svg?logo=render&amp;logoColor=fff&amp;variant=branded&amp;brand=render&amp;size=xs" />
+<img alt="Vite" src="https://shieldcn.dev/badge/Vite-646CFF.svg?logo=vite&amp;logoColor=fff&amp;variant=branded&amp;brand=vite&amp;size=xs" />
+<img alt="Vitest" src="https://shieldcn.dev/badge/Vitest-6E9F18.svg?logo=vitest&amp;logoColor=fff&amp;variant=branded&amp;brand=vitest&amp;size=xs" />
 
 ### ⚙️ How I ship
 
