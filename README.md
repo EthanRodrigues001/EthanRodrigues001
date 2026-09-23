@@ -1,54 +1,82 @@
-# やあ, I'm Ethan 🐼
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/graph.svg?title=Ethan+Rodrigues&subtitle=Full-Stack+%26+AI+Engineer+%C2%B7+Mumbai&logo=nextdotjs&mode=dark" />
+    <img alt="Ethan Rodrigues — Full-Stack & AI Engineer" src="https://shieldcn.dev/header/graph.svg?title=Ethan+Rodrigues&subtitle=Full-Stack+%26+AI+Engineer+%C2%B7+Mumbai&logo=nextdotjs&mode=light" />
+  </picture>
+</p>
 
-`dev | ethanrodrigues001`
+<p align="center">
+  <a href="https://ethan-rodrigues-portfolio-1fu1.vercel.app/"><img alt="Portfolio" src="https://shieldcn.dev/badge/Portfolio-black.svg?logo=vercel&variant=secondary" /></a>
+  <a href="https://www.linkedin.com/in/ethan-rodrigues25/"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-black.svg?logo=linkedin&variant=secondary" /></a>
+  <a href="https://twitter.com/EthanRo97737635"><img alt="X" src="https://shieldcn.dev/badge/X-black.svg?logo=x&variant=secondary" /></a>
+  <a href="mailto:ethanrodrigues25@gmail.com"><img alt="Email" src="https://shieldcn.dev/badge/Email-black.svg?logo=gmail&variant=secondary" /></a>
+  <a href="https://cal.com/ethan-rodrigues"><img alt="Book a call" src="https://shieldcn.dev/badge/Book%20a%20call-black.svg?logo=caldotcom&variant=secondary" /></a>
+</p>
 
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/badges?badges=%F0%9F%93%8D%20Navi%20Mumbai%2C%20India%2C%F0%9F%98%80%20Full%20Stack%20Developer&color=%23151b23)
+## やあ, I'm Ethan 🐼
 
----
+Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Navi Mumbai). I build production-grade SaaS in **TypeScript, Next.js and Postgres**, and lately a lot of **AI agents** with the Vercel AI SDK and Gemini.
 
-## About • 約
+- 🔬 Research Intern @ **IISER Mohali**, predictive modelling with XGBoost / scikit-learn
+- 🧩 Built **LYX UI**, a shadcn-based React component library
+- 🏢 Founder of **Wisplabs**, a small web studio
+- 🤖 ML Head @ **AIDL Club, FCRIT**
+- 🎧 Off the keyboard: music and anime
 
-I'm **Ethan Rodrigues**, a full-stack web developer who lives for building sleek, company-level SaaS apps that solve real-world problems. Always on the grind, designing, coding, and exploring new tech to stay ahead of the game. I’m all about turning fresh ideas into reality and keeping the ecosystem buzzing with innovation.
+## 🚀 Featured work
 
-When I’m not buried in code, you’ll catch me vibing to some tunes, or diving into anime. I’m always hungry to learn something new and level up, whether it's a new framework, design trend, or just sharpening my skills. Catch me out here building and dreaming big!
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**LetterStack**](https://letterstack-ui.vercel.app/) | Email SaaS for mass campaigns with a Notion-style editor | Next.js · TipTap · Neon · AWS SES |
+| [**eve-agent-framework**](https://github.com/EthanRodrigues001/eve-agent-framework) | Next.js starter for building AI agents | AI SDK · Gemini · Neon |
+| [**Typeset**](https://github.com/EthanRodrigues001/Typeset) | Desktop Markdown editor with a knowledge graph | Tauri · Rust · Next.js · CodeMirror |
+| [**Moss**](https://github.com/EthanRodrigues001/Moss) | Research & LaTeX writing workspace | Next.js · TipTap · Monaco · Supabase |
+| [**LYX UI**](https://lyx-ui.vercel.app/) | shadcn/ui-based component library + docs | Next.js · Fumadocs · Motion |
+| [**Blingo**](https://blingo2-0.vercel.app/) | AI project-roadmap generator for hackathon teams | Next.js · Gemini · Appwrite · React Flow |
+| [**shipfuel-ai**](https://shipfuel-ai.vercel.app/) | ML prediction API + dashboard | FastAPI · XGBoost · Next.js |
+| [**HopeNGO**](https://hope-ngo-web.vercel.app/) | NGO platform, web + mobile app | Next.js · Expo · Firebase |
 
-Always available for a chat, a coffee, or a listen. Open to [collaboration](mailto:ethanrodrgues25@gmail.com) and a good vibe.
+## 🧰 Tech stack
 
-## 🚀 Tech Stack
+**Core — every project**<br/>
+<img alt="TypeScript" src="https://shieldcn.dev/badge/TypeScript-3178C6.svg?logo=typescript&variant=secondary" />
+<img alt="React" src="https://shieldcn.dev/badge/React-61DAFB.svg?logo=react&variant=secondary" />
+<img alt="Next.js" src="https://shieldcn.dev/badge/Next.js-000000.svg?logo=nextdotjs&variant=secondary" />
+<img alt="Tailwind CSS" src="https://shieldcn.dev/badge/Tailwind%20CSS-06B6D4.svg?logo=tailwindcss&variant=secondary" />
+<img alt="shadcn/ui" src="https://shieldcn.dev/badge/shadcn/ui-000000.svg?logo=shadcnui&variant=secondary" />
+<img alt="Zod" src="https://shieldcn.dev/badge/Zod-3E67B1.svg?logo=zod&variant=secondary" />
+<img alt="Motion" src="https://shieldcn.dev/badge/Motion-0055FF.svg?logo=framer&variant=secondary" />
 
-### ⚡ Frontend
+**Data & backend**<br/>
+<img alt="PostgreSQL" src="https://shieldcn.dev/badge/PostgreSQL-4169E1.svg?logo=postgresql&variant=secondary" />
+<img alt="Neon" src="https://shieldcn.dev/badge/Neon-00E599.svg?logo=neon&variant=secondary" />
+<img alt="Drizzle ORM" src="https://shieldcn.dev/badge/Drizzle%20ORM-C5F74F.svg?logo=drizzle&variant=secondary" />
+<img alt="Firebase" src="https://shieldcn.dev/badge/Firebase-FFCA28.svg?logo=firebase&variant=secondary" />
+<img alt="Supabase" src="https://shieldcn.dev/badge/Supabase-3FCF8E.svg?logo=supabase&variant=secondary" />
+<img alt="Node.js" src="https://shieldcn.dev/badge/Node.js-5FA04E.svg?logo=nodedotjs&variant=secondary" />
+<img alt="FastAPI" src="https://shieldcn.dev/badge/FastAPI-009688.svg?logo=fastapi&variant=secondary" />
 
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/techstack?tech1=nextjs&tech2=react&tech3=Asternity%20UI%20&tech4=Shadcn%20UI%20%20&tech5=Framer%20Motion%20%20&color=%23151b23)
+**AI & ML**<br/>
+<img alt="Vercel AI SDK" src="https://shieldcn.dev/badge/Vercel%20AI%20SDK-000000.svg?logo=vercel&variant=secondary" />
+<img alt="Gemini" src="https://shieldcn.dev/badge/Gemini-8E75B2.svg?logo=googlegemini&variant=secondary" />
+<img alt="Python" src="https://shieldcn.dev/badge/Python-3776AB.svg?logo=python&variant=secondary" />
+<img alt="scikit-learn" src="https://shieldcn.dev/badge/scikit--learn-F7931E.svg?logo=scikitlearn&variant=secondary" />
+<img alt="XGBoost" src="https://shieldcn.dev/badge/XGBoost-337AB7.svg?logo=xgboost&variant=secondary" />
+<img alt="PyTorch" src="https://shieldcn.dev/badge/PyTorch-EE4C2C.svg?logo=pytorch&variant=secondary" />
 
-### 🚀 Backend
+**Mobile, desktop & tooling**<br/>
+<img alt="Expo" src="https://shieldcn.dev/badge/Expo-000020.svg?logo=expo&variant=secondary" />
+<img alt="React Native" src="https://shieldcn.dev/badge/React%20Native-61DAFB.svg?logo=react&variant=secondary" />
+<img alt="Tauri" src="https://shieldcn.dev/badge/Tauri-24C8D8.svg?logo=tauri&variant=secondary" />
+<img alt="Rust" src="https://shieldcn.dev/badge/Rust-000000.svg?logo=rust&variant=secondary" />
+<img alt="Electron" src="https://shieldcn.dev/badge/Electron-47848F.svg?logo=electron&variant=secondary" />
+<img alt="Vite" src="https://shieldcn.dev/badge/Vite-646CFF.svg?logo=vite&variant=secondary" />
+<img alt="Vitest" src="https://shieldcn.dev/badge/Vitest-6E9F18.svg?logo=vitest&variant=secondary" />
+<img alt="Figma" src="https://shieldcn.dev/badge/Figma-F24E1E.svg?logo=figma&variant=secondary" />
+<img alt="Vercel" src="https://shieldcn.dev/badge/Vercel-000000.svg?logo=vercel&variant=secondary" />
 
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/techstack?tech1=Node.js%20%20&tech2=Express.js&tech3=Python&tech4=TypeScript&tech5=Docker%20&color=%23151b23)
+## 📈 Activity
 
-### 🧠 AI & ML
-
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/techstack?tech1=Tensorflow.js%20&tech2=Claude&tech3=Crawl4ai%20%20&tech4=Hugging%20Face%20%20&tech5=Open%20AI&color=%23151b23)
-
-### 🛢️ Databases & ORMs
-
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/techstack?tech1=MongoDB%20&tech2=Prisma&tech3=NeonDB%20%20&tech4=Drizzle&tech5=PostgreSQL%20&color=%23151b23)
-
-### 🧰 Dev Tools
-
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/techstack?tech1=Git%20%20&tech2=GitHub&tech3=VS%20Code&tech4=Insomnia%20%20&tech5=Postman%20&color=%23151b23)
-
-### ☁️ Cloud & Deployment
-
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/techstack?tech1=AWS%20&tech2=Vercel%20&tech3=Hostinger%20&tech4=Netlify&tech5=Railway&color=%23151b23)
-
-### 📦 Cloud Storage & APIs
-
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/techstack?tech1=Appwrite&tech2=Pinata&tech3=Uploadthing&tech4=Supabase%20&tech5=Anthropic&color=%23151b23)
-
-##
-
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/bento-top?favoriteRepo=Blingo2.0&favoriteRepoDesc=%F0%9F%9A%80%20Ai%20based%20project%20roadmap%20generation%3A%20People%20new%20at%20hakathon%20get%20guidance%20on%20how%20to%20start%20their%20project%20and%20simplify%20the%20process%20of%20development.)
-
-![GitHub Profile Element](https://github-bento-weld.vercel.app/api/bento-middle?username=EthanRodrigues001&discord=dev_ethan&linkedin=Ethan-Rodrigues&twitter=EthanRo97737635)
-
-##
-If you want to create a similar Github profile, view my [api](https://github.com/EthanRodrigues001/github-bento) 😀 (v1.0 | Domain and readme change soon...)
+<p align="center">
+  <img alt="Lifetime commits" src="https://shieldcn.dev/chart/github/commits/EthanRodrigues001.svg?bg=transparent&border=false" />
+</p>
