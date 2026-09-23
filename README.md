@@ -1,9 +1,4 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/graph.svg?title=Ethan+Rodrigues&subtitle=Full-Stack+%26+AI+Engineer+%C2%B7+Mumbai&logo=nextdotjs&mode=dark" />
-    <img alt="Ethan Rodrigues — Full-Stack & AI Engineer" src="https://shieldcn.dev/header/graph.svg?title=Ethan+Rodrigues&subtitle=Full-Stack+%26+AI+Engineer+%C2%B7+Mumbai&logo=nextdotjs&mode=light" />
-  </picture>
-</p>
+![Ethan Rodrigues](https://shieldcn.dev/header/surface.svg?title=Ethan+Rodrigues&subtitle=Full-Stack+%26+AI+Engineer+%C2%B7+Mumbai&logo=https%3A%2F%2Fraw.githubusercontent.com%2FEthanRodrigues001%2FEthanRodrigues001%2Fmain%2Flogo-mark.png&mode=dark&theme=slate&align=left&image=https%3A%2F%2Fres.cloudinary.com%2Fdhyvtqkof%2Fimage%2Fupload%2Ff_auto%2Fq_auto%2FPoster_rvd6gb.png&overlay=0.4)
 
 <p align="center">
   <a href="https://ethan-rodrigues-portfolio-1fu1.vercel.app/"><img alt="Portfolio" src="https://shieldcn.dev/badge/Portfolio-black.svg?logo=vercel&variant=secondary" /></a>
