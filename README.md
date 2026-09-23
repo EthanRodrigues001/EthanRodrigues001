@@ -10,7 +10,7 @@
   <a href="https://cal.com/ethan-rodrigues"><img alt="Book a call" src="https://shieldcn.dev/badge/Book%20a%20call-292929.svg?logo=caldotcom&amp;logoColor=fff&amp;variant=branded&amp;brand=caldotcom&amp;size=xs" /></a>
 </p>
 
-## やあ, I'm Ethan 🐼
+# やあ, I'm Ethan 🐼
 
 Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Navi Mumbai). I build production-grade SaaS in **TypeScript, Next.js and Postgres**, and lately a lot of **AI agents** with the Vercel AI SDK and Gemini.
 
