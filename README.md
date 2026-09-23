@@ -98,5 +98,8 @@ Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Nav
 ## 📈 Activity
 
 <p align="center">
-  <img alt="Lifetime commits" src="https://shieldcn.dev/chart/github/commits/EthanRodrigues001.svg?bg=transparent&border=false" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/chart/github/commits/EthanRodrigues001.svg?bg=transparent&amp;border=false&amp;color=ffffff&amp;mode=dark" />
+    <img alt="Lifetime commits" src="https://shieldcn.dev/chart/github/commits/EthanRodrigues001.svg?bg=transparent&amp;border=false&amp;color=18181b&amp;mode=light" />
+  </picture>
 </p>
