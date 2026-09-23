@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://ethan-rodrigues-portfolio-1fu1.vercel.app/"><img alt="Portfolio" src="https://shieldcn.dev/badge/Portfolio-black.svg?logo=vercel&variant=secondary" /></a>
-  <a href="https://www.linkedin.com/in/ethan-rodrigues25/"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-black.svg?logo=linkedin&variant=secondary" /></a>
+  <a href="https://www.linkedin.com/in/ethan-rodrigues25/"><img alt="LinkedIn" src="https://shieldcn.dev/badge/LinkedIn-black.svg?logo=ri:RiLinkedinBoxFill&variant=secondary" /></a>
   <a href="https://twitter.com/EthanRo97737635"><img alt="X" src="https://shieldcn.dev/badge/X-black.svg?logo=x&variant=secondary" /></a>
   <a href="mailto:ethanrodrigues25@gmail.com"><img alt="Email" src="https://shieldcn.dev/badge/Email-black.svg?logo=gmail&variant=secondary" /></a>
   <a href="https://cal.com/ethan-rodrigues"><img alt="Book a call" src="https://shieldcn.dev/badge/Book%20a%20call-black.svg?logo=caldotcom&variant=secondary" /></a>
