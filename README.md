@@ -12,20 +12,30 @@
 
 # やあ, I'm Ethan 🐼
 
-Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Navi Mumbai). I build production-grade SaaS in **TypeScript, Next.js and Postgres**, and lately a lot of **AI agents** with the Vercel AI SDK and Gemini.
+Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Navi Mumbai). I build **AI-native products** end to end: LLM agents that call tools and edit real data, the TypeScript/Next.js/Postgres apps they live in, and the pipelines that ship them.
 
+- 🤖 **AI engineering**: tool-calling agents on the Vercel AI SDK + Gemini, durable multi-step workflows, and the guardrails around them (quotas, step limits, human approval)
 - 🦀 Systems side: **Rust** services (Axum + Tokio) and **Tauri** desktop apps
 - ⚙️ Ship it properly: **GitHub Actions** release pipelines, signed auto-updates, Docker deploys
 - 🧩 Built **LYX UI**, a shadcn-based React component library
 - 🏢 Founder of **Wisplabs**, a small web studio
 - 🎧 Off the keyboard: music and anime
 
+## 🤖 What I build with AI
+
+- **Agents inside products.** LetterStack's email editor has an agent that edits the document through typed tools. Tool calls run in the browser so edits are instant, while the server keeps the API key, per-org quotas, a usage ledger and a hard step ceiling.
+- **Tool-calling agents with memory.** [eve-agent-framework](https://github.com/EthanRodrigues001/eve-agent-framework): a Gemini chat agent on Vercel's Eve framework with tools and notes persisted in Neon Postgres, usable from a web UI, an HTTP API or a terminal REPL.
+- **Durable agent workflows.** Career OS (in progress): multi-step agent runs on Workflow DevKit that survive restarts and can be replayed, with an approval gate before anything is sent to the outside world.
+- **LLM features that ship.** AI roadmap generation in [Blingo](https://blingo2-0.vercel.app/), AI health summaries from uploaded prescriptions in [HealthSync](https://vybe-coders-health-sync.vercel.app), and an AI schema visualiser with Upstash rate limiting.
+- **Classic ML.** XGBoost and scikit-learn models served over FastAPI ([shipfuel-ai](https://shipfuel-ai.vercel.app/)), and PyTorch/Keras demand forecasting explained with SHAP and LIME.
+- **Agentic dev workflow.** I build with coding agents every day and write my own Claude Code skills and tooling around them.
+
 ## 🚀 Featured work
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [**LetterStack**](https://letterstack-ui.vercel.app/) | Email SaaS for mass campaigns with a Notion-style editor | Next.js · TipTap · Neon · AWS SES |
-| [**eve-agent-framework**](https://github.com/EthanRodrigues001/eve-agent-framework) | Next.js starter for building AI agents | AI SDK · Gemini · Neon |
+| [**LetterStack**](https://letterstack-ui.vercel.app/) | Email SaaS with a Notion-style editor and a built-in AI editing agent | Next.js · AI SDK · Gemini · Neon · AWS SES |
+| [**eve-agent-framework**](https://github.com/EthanRodrigues001/eve-agent-framework) | Tool-calling Gemini agent with persistent memory | Eve · AI SDK · Gemini · Neon |
 | [**Typeset**](https://github.com/EthanRodrigues001/Typeset) | Desktop Markdown editor with a knowledge graph | Tauri · Rust · Next.js · CodeMirror |
 | [**Moss**](https://github.com/EthanRodrigues001/Moss) | Research & LaTeX writing workspace | Next.js · TipTap · Monaco · Supabase |
 | [**LYX UI**](https://lyx-ui.vercel.app/) | shadcn/ui-based component library + docs | Next.js · Fumadocs · Motion |
