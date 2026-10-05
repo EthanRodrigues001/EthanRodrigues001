@@ -18,7 +18,6 @@ Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Nav
 - 🦀 Systems side: **Rust** services (Axum + Tokio) and **Tauri** desktop apps
 - ⚙️ Ship it properly: **GitHub Actions** release pipelines, signed auto-updates, Docker deploys
 - 🧩 Built **LYX UI**, a shadcn-based React component library
-- 🏢 Founder of **Wisplabs**, a small web studio
 - 🎧 Off the keyboard: music and anime
 
 ## 🤖 What I build with AI
