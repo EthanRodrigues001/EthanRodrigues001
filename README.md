@@ -98,6 +98,7 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 <img alt="PyTorch" src="https://shieldcn.dev/badge/PyTorch-EE4C2C.svg?logo=pytorch&amp;logoColor=fff&amp;variant=branded&amp;brand=pytorch&amp;size=xs" />
 
 **CI/CD & infra**<br/>
+<img alt="AWS" src="https://shieldcn.dev/badge/AWS%20(SES%2C%20SNS)-232F3E.svg?logo=false&amp;variant=branded&amp;size=xs" />
 <img alt="GitHub Actions" src="https://shieldcn.dev/badge/GitHub%20Actions-2088FF.svg?logo=githubactions&amp;logoColor=fff&amp;variant=branded&amp;brand=githubactions&amp;size=xs" />
 <img alt="Docker" src="https://shieldcn.dev/badge/Docker-2496ED.svg?logo=docker&amp;logoColor=fff&amp;variant=branded&amp;brand=docker&amp;size=xs" />
 <img alt="Vercel" src="https://shieldcn.dev/badge/Vercel-000000.svg?logo=vercel&amp;logoColor=fff&amp;variant=branded&amp;brand=vercel&amp;size=xs" />
