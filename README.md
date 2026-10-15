@@ -45,7 +45,6 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 | [**LYX UI**](https://lyx-ui.vercel.app/) | shadcn/ui-based component library + docs | Next.js · Fumadocs · Motion |
 | [**Blingo**](https://blingo2-0.vercel.app/) | AI project-roadmap generator for hackathon teams | Next.js · Gemini · Appwrite · React Flow |
 | [**shipfuel-ai**](https://shipfuel-ai.vercel.app/) | Ship fuel-consumption prediction from the IISER research (R² 0.98) | FastAPI · XGBoost · Next.js |
-| [**HopeNGO**](https://hope-ngo-web.vercel.app/) | NGO platform, web + mobile app | Next.js · Expo · Firebase |
 
 ## 🧰 Tech stack
 
