@@ -14,7 +14,7 @@
 
 I'm an AI engineer and full-stack developer, in my final year of Computer Engineering at FCRIT, Navi Mumbai. Most of what I build these days has an LLM in it: agents that call tools and change real data, inside TypeScript, Next.js and Postgres apps.
 
-I also build *with* AI. Claude Code and Codex are part of my daily workflow, and every repo I start gets a CLAUDE.md or AGENTS.md so the agents follow my conventions. Gemini is what I usually call from code.
+I also build *with* AI: Claude Code and Codex are part of my daily workflow, and Gemini is what I usually call from code.
 
 - 🤖 Agents on the Vercel AI SDK and Gemini, with the limits that keep them safe: quotas, step caps, human approval
 - 🦀 Rust services (Axum, Tokio) and Tauri desktop apps
@@ -30,7 +30,7 @@ I also build *with* AI. Claude Code and Codex are part of my daily workflow, and
 - **Durable agent workflows.** Career OS (in progress): multi-step agent runs on Workflow DevKit that survive restarts and can be replayed, with an approval gate before anything is sent to the outside world.
 - **LLM features that ship.** AI roadmap generation in [Blingo](https://blingo2-0.vercel.app/), AI health summaries from uploaded prescriptions in [HealthSync](https://vybe-coders-health-sync.vercel.app), and an AI schema visualiser with Upstash rate limiting.
 - **Classic ML.** XGBoost and scikit-learn models served over FastAPI ([shipfuel-ai](https://shipfuel-ai.vercel.app/)), and PyTorch/Keras demand forecasting explained with SHAP and LIME.
-- **Agentic dev workflow.** Claude Code and Codex every day, with per-repo CLAUDE.md / AGENTS.md instructions and skills. [Typeset](https://github.com/EthanRodrigues001/Typeset) even writes LAYOUT.md index files so agents can find their way around a notes workspace.
+- **Agentic dev workflow.** Claude Code and Codex every day. [Typeset](https://github.com/EthanRodrigues001/Typeset) even writes LAYOUT.md index files so agents can find their way around a notes workspace.
 
 ## 🚀 Featured work
 
