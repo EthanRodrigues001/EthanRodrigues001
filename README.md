@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Ethan Rodrigues" src="https://shieldcn.dev/header/surface.svg?title=Ethan+Rodrigues&amp;subtitle=Full-Stack+%26+AI+Engineer+%C2%B7+Mumbai&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2FEthanRodrigues001%2FEthanRodrigues001%2Fmain%2Flogo-mark-muted.png&amp;mode=dark&amp;theme=slate&amp;align=left&amp;image=https%3A%2F%2Fres.cloudinary.com%2Fdhyvtqkof%2Fimage%2Fupload%2Ff_auto%2Fq_auto%2FPoster_1_lzltdi.png&amp;overlay=0.4" width="100%" />
+  <img alt="Ethan Rodrigues" src="https://shieldcn.dev/header/surface.svg?title=Ethan+Rodrigues&amp;subtitle=AI+Engineer+%C2%B7+Full-Stack+Developer&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2FEthanRodrigues001%2FEthanRodrigues001%2Fmain%2Flogo-mark-muted.png&amp;mode=dark&amp;theme=slate&amp;align=left&amp;image=https%3A%2F%2Fres.cloudinary.com%2Fdhyvtqkof%2Fimage%2Fupload%2Ff_auto%2Fq_auto%2FPoster_1_lzltdi.png&amp;overlay=0.4" width="100%" />
 </p>
 
 <p align="center">
@@ -12,12 +12,15 @@
 
 # やあ, I'm Ethan 🐼
 
-Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Navi Mumbai). I build **AI-native products** end to end: LLM agents that call tools and edit real data, the TypeScript/Next.js/Postgres apps they live in, and the pipelines that ship them.
+I'm an AI engineer and full-stack developer, in my final year of Computer Engineering at FCRIT, Navi Mumbai. Most of what I build these days has an LLM in it: agents that call tools and change real data, inside TypeScript, Next.js and Postgres apps.
 
-- 🤖 **AI engineering**: tool-calling agents on the Vercel AI SDK + Gemini, durable multi-step workflows, and the guardrails around them (quotas, step limits, human approval)
-- 🦀 Systems side: **Rust** services (Axum + Tokio) and **Tauri** desktop apps
-- ⚙️ Ship it properly: **GitHub Actions** release pipelines, signed auto-updates, Docker deploys
-- 🧩 Built **LYX UI**, a shadcn-based React component library
+I also build *with* AI. Claude Code and Codex are part of my daily workflow, and every repo I start gets a CLAUDE.md or AGENTS.md so the agents follow my conventions. Gemini is what I usually call from code.
+
+- 🤖 Agents on the Vercel AI SDK and Gemini, with the limits that keep them safe: quotas, step caps, human approval
+- 🦀 Rust services (Axum, Tokio) and Tauri desktop apps
+- ⚙️ GitHub Actions release pipelines, signed auto-updates, Docker deploys
+- 🧩 Built LYX UI, a shadcn-based React component library
+- 🎨 UI/UX design in Figma, as a hobby
 - 🎧 Off the keyboard: music and anime
 
 ## 🤖 What I build with AI
@@ -27,7 +30,7 @@ Full-stack & AI engineer and B.Tech Computer Engineering student ('27, FCRIT Nav
 - **Durable agent workflows.** Career OS (in progress): multi-step agent runs on Workflow DevKit that survive restarts and can be replayed, with an approval gate before anything is sent to the outside world.
 - **LLM features that ship.** AI roadmap generation in [Blingo](https://blingo2-0.vercel.app/), AI health summaries from uploaded prescriptions in [HealthSync](https://vybe-coders-health-sync.vercel.app), and an AI schema visualiser with Upstash rate limiting.
 - **Classic ML.** XGBoost and scikit-learn models served over FastAPI ([shipfuel-ai](https://shipfuel-ai.vercel.app/)), and PyTorch/Keras demand forecasting explained with SHAP and LIME.
-- **Agentic dev workflow.** I build with coding agents every day and write my own Claude Code skills and tooling around them.
+- **Agentic dev workflow.** Claude Code and Codex every day, with per-repo CLAUDE.md / AGENTS.md instructions and skills. [Typeset](https://github.com/EthanRodrigues001/Typeset) even writes LAYOUT.md index files so agents can find their way around a notes workspace.
 
 ## 🚀 Featured work
 
