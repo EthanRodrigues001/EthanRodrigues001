@@ -22,7 +22,7 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 - 🚢 Research intern at IISER Mohali (2025-26): fuel-consumption models for a Kamsarmax bulk carrier on ~83k rows of real telemetry, XGBoost at R² 0.98
 - 🦀 Rust services (Axum, Tokio) and Tauri desktop apps
 - ⚙️ GitHub Actions release pipelines, signed auto-updates, Docker deploys
-- 📬 Co-founded [LetterStack](https://letterstack.site) with [Krish Pinto (@krishpinto)](https://github.com/krishpinto): open source, with paying customers
+- 📬 Co-founded [LetterStack](https://letterstack.site) with Krish Pinto: open source, with paying customers
 - 🧩 Built LYX UI, a shadcn-based React component library
 - 🎨 UI/UX design in Figma, as a hobby
 - 🎧 Off the keyboard: music and anime
@@ -40,7 +40,7 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [**LetterStack**](https://letterstack.site) | Open-source email campaign SaaS I co-founded (~72k lines, paying customers). Built with [Krish Pinto](https://github.com/krishpinto); I built the AI editing agent and Razorpay invoicing ([repo](https://github.com/krishpinto/Letterstack)) | Next.js · AI SDK · Neon · AWS SES · Razorpay |
+| [**LetterStack**](https://letterstack.site) | Open-source email campaign SaaS I co-founded (~72k lines, paying customers). Built with Krish Pinto; I built the AI editing agent and Razorpay invoicing ([repo](https://github.com/krishpinto/Letterstack)) | Next.js · AI SDK · Neon · AWS SES · Razorpay |
 | [**eve-agent-framework**](https://github.com/EthanRodrigues001/eve-agent-framework) | Extensible, model-agnostic agent with persistent memory | Eve · AI SDK · Neon |
 | [**Typeset**](https://github.com/EthanRodrigues001/Typeset) | Windows Markdown app; 5 signed, auto-updating releases via GitHub Actions | Tauri · Rust · Next.js · CodeMirror |
 | [**Moss**](https://github.com/EthanRodrigues001/Moss) | Overleaf-style LaTeX editor with a Rust compile service on Docker | Next.js · Supabase · Rust (Axum) · Docker |
