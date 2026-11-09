@@ -29,12 +29,6 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 
 **By the numbers:** 66 public repos and 900+ public commits. Four apps shipped since mid-October (Profileinator, Moss, HOVR, notToday). 58 typed MCP tools in Profileinator. R² 0.98 on ~83k rows of ship telemetry at IISER. LetterStack is ~72k lines with paying customers.
 
-## 💼 Experience
-
-- **Research Intern, IISER Mohali** (Jul 2025 to Jun 2026): ship fuel-consumption models, XGBoost at R² 0.98
-- **Co-founder, [LetterStack](https://letterstack.site):** open-source email SaaS with paying customers
-- **Full-Stack Developer, Wisplabs** (freelance, 2025 to now) and creator of **[LYX UI](https://lyx-ui.vercel.app/)**
-
 ## 🤖 What I build with AI
 
 - **Agents inside products.** [LetterStack](https://github.com/krishpinto/Letterstack)'s email editor has an agent that edits the document through typed tools. Tool calls run in the browser so edits are instant, while the server keeps the API key, per-org quotas, a usage ledger and a hard step ceiling.
