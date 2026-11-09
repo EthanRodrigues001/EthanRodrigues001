@@ -31,6 +31,7 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 
 - **Agents inside products.** [LetterStack](https://github.com/krishpinto/Letterstack)'s email editor has an agent that edits the document through typed tools. Tool calls run in the browser so edits are instant, while the server keeps the API key, per-org quotas, a usage ledger and a hard step ceiling.
 - **Tool-calling agents with memory.** [eve-agent-framework](https://github.com/EthanRodrigues001/eve-agent-framework): a model-agnostic agent on Vercel's Eve framework where each new skill is one typed tool file, with notes persisted in Neon Postgres, usable from a web UI, an HTTP API or a terminal REPL.
+- **MCP servers for agents.** [Profileinator](https://github.com/EthanRodrigues001/profileinator) is a Rust MCP server (stdio and HTTP) that gives agents my profile, projects and knowledge graph through typed tools. [Moss](https://github.com/EthanRodrigues001/moss) lets agents read, edit and compile LaTeX projects, taking a restore point before every change and waiting for my approval before deleting files.
 - **Durable agent workflows.** Career OS (in progress): multi-step agent runs on Workflow DevKit that survive restarts and can be replayed, with an approval gate before anything is sent to the outside world.
 - **LLM features that ship.** AI roadmap generation in [Blingo](https://blingo2-0.vercel.app/), AI health summaries from uploaded prescriptions in [HealthSync](https://vybe-coders-health-sync.vercel.app), and an AI schema visualiser with Upstash rate limiting.
 - **Classic ML.** At IISER Mohali I modelled a Kamsarmax bulk carrier's fuel use from real telemetry: XGBoost hit R² 0.98, and synthetic data cut its error by 17%. Served over FastAPI as [shipfuel-ai](https://shipfuel-ai.vercel.app/). Also PyTorch/Keras demand forecasting explained with SHAP and LIME.
@@ -43,7 +44,10 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 | [**LetterStack**](https://letterstack.site) | Open-source email campaign SaaS I co-founded (~72k lines, paying customers). Built with Krish Pinto; I built the AI editing agent and Razorpay invoicing ([repo](https://github.com/krishpinto/Letterstack)) | Next.js · AI SDK · Neon · AWS SES · Razorpay |
 | [**eve-agent-framework**](https://github.com/EthanRodrigues001/eve-agent-framework) | Extensible, model-agnostic agent with persistent memory | Eve · AI SDK · Neon |
 | [**Typeset**](https://github.com/EthanRodrigues001/Typeset) | Windows Markdown app; 5 signed, auto-updating releases via GitHub Actions | Tauri · Rust · Next.js · CodeMirror |
-| [**Moss**](https://github.com/EthanRodrigues001/Moss) | Overleaf-style LaTeX editor with a Rust compile service on Docker | Next.js · Supabase · Rust (Axum) · Docker |
+| [**Profileinator**](https://github.com/EthanRodrigues001/profileinator) | Local-first memory of me for AI agents: profile, projects and a knowledge graph behind an MCP server (58 tools), with a dashboard and a desktop app with signed auto-updates (v0.1.5) | Rust · MCP · Next.js · Tauri |
+| [**Moss**](https://github.com/EthanRodrigues001/moss) | Local-first LaTeX editor for Windows: compiles on your PC, syncs with Overleaf and has an MCP server so AI agents can edit projects with restore points (beta) | Tauri · Rust · Next.js · TipTap · CodeMirror |
+| [**HOVR**](https://github.com/EthanRodrigues001/hovr) | Windows notch that shows how much of your Claude, Codex and Cursor usage limits you have left, with pace and forecast (v1.0.4) | Electron · React · Vite · Vitest |
+| [**notToday**](https://github.com/EthanRodrigues001/nottoday) | Android planner that shows only what is due today, counts every slip and suggests deadlines from WhatsApp notifications on-device (v1.0.2) | Expo · React Native · Kotlin |
 | [**LYX UI**](https://lyx-ui.vercel.app/) | shadcn/ui-based component library + docs | Next.js · Fumadocs · Motion |
 | [**Blingo**](https://blingo2-0.vercel.app/) | AI project-roadmap generator for hackathon teams | Next.js · Gemini · Appwrite · React Flow |
 | [**shipfuel-ai**](https://shipfuel-ai.vercel.app/) | Ship fuel-consumption prediction from the IISER research (R² 0.98) | FastAPI · XGBoost · Next.js |
@@ -111,7 +115,7 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 ### ⚙️ How I ship
 
 - **Tagged releases → signed desktop builds.** In [Typeset](https://github.com/EthanRodrigues001/Typeset), pushing a `v*` tag runs a GitHub Actions workflow that sets up Node and the Rust toolchain, builds the Tauri app on Windows, signs it for the auto-updater with keys kept in repo secrets, and publishes a GitHub Release that installed copies update from.
-- **Containerised Rust service.** [Moss](https://github.com/EthanRodrigues001/Moss) runs a LaTeX compile backend written in Rust (Axum + Tokio). It ships as a Docker image on Render as infrastructure-as-code (`render.yaml`), with health checks, upload limits and compile timeouts.
+- **Containerised Rust service.** [moss-web](https://github.com/EthanRodrigues001/moss-web), the web version of Moss, runs a LaTeX compile backend written in Rust (Axum + Tokio). It ships as a Docker image on Render as infrastructure-as-code (`render.yaml`), with health checks, upload limits and compile timeouts.
 - **Deploy automation.** Vercel preview and production deploys on every project, plus a GitHub Actions deploy hook that works around Vercel's single-owner build limit on team repos.
 - **Quality gates.** TypeScript strict mode, ESLint/Biome, Vitest + Testing Library, Zod at API boundaries.
 
