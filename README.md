@@ -12,7 +12,7 @@
 
 # やあ, I'm Ethan 🐼
 
-I'm a full-stack and AI engineer, in my final year of Computer Engineering at FCRIT, Navi Mumbai. Most of what I build these days has an LLM in it: agents that call tools and change real data, inside TypeScript, Next.js and Postgres apps.
+I'm a full-stack and AI engineer in my final year of Computer Engineering at FCRIT, Navi Mumbai (class of 2027). I build products where an LLM does real work: agents that call typed tools and change real data, inside TypeScript, Next.js and Postgres apps, plus the Rust and desktop tooling around them.
 
 I'm looking for a full-time software engineering role building AI products. The best way to reach me is [email](mailto:ethanrodrigues25@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ethan-rodrigues25/).
 
@@ -26,6 +26,18 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 - 🧩 Built LYX UI, a shadcn-based React component library
 - 🎨 UI/UX design in Figma, as a hobby
 - 🎧 Off the keyboard: music and anime
+
+**By the numbers:** 66 public repos and 900+ public commits. Four apps shipped since mid-October (Profileinator, Moss, HOVR, notToday). 58 typed MCP tools in Profileinator. R² 0.98 on ~83k rows of ship telemetry at IISER. LetterStack is ~72k lines with paying customers.
+
+## 💼 Experience
+
+| Role | Where | What I did |
+| --- | --- | --- |
+| **Co-founder, full-stack** | [LetterStack](https://letterstack.site) · open source | Email campaign SaaS built with Krish Pinto, with paying customers. I built the AI editing agent and the Razorpay invoicing. |
+| **Research Intern** | IISER Mohali · Jul 2025 to Jun 2026 | Modelled a Kamsarmax bulk carrier's fuel use on ~83k rows of real telemetry: XGBoost at R² 0.98, and synthetic data cut its error by 17%. Shipped model demos with Streamlit and FastAPI. |
+| **Full-Stack Developer** | Wisplabs, web studio · freelance, 2025 to now | Built and shipped client websites and marketing pages, and ran delivery end to end (Next.js, Tailwind, Vercel). |
+| **Creator and maintainer** | [LYX UI](https://lyx-ui.vercel.app/) · open source, 2024 to now | shadcn-based React component library and its docs site. |
+| **ML Head** | AIDL Club, FCRIT | Mentored 5+ juniors and built the club website. |
 
 ## 🤖 What I build with AI
 
@@ -42,13 +54,18 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [**LetterStack**](https://letterstack.site) | Open-source email campaign SaaS I co-founded (~72k lines, paying customers). Built with Krish Pinto; I built the AI editing agent and Razorpay invoicing ([repo](https://github.com/krishpinto/Letterstack)) | Next.js · AI SDK · Neon · AWS SES · Razorpay |
-| [**eve-agent-framework**](https://github.com/EthanRodrigues001/eve-agent-framework) | Extensible, model-agnostic agent with persistent memory | Eve · AI SDK · Neon |
-| [**Typeset**](https://github.com/EthanRodrigues001/Typeset) | Windows Markdown app; 5 signed, auto-updating releases via GitHub Actions | Tauri · Rust · Next.js · CodeMirror |
 | [**Profileinator**](https://github.com/EthanRodrigues001/profileinator) | Local-first memory of me for AI agents: profile, projects and a knowledge graph behind an MCP server (58 tools), with a dashboard and a desktop app with signed auto-updates (v0.1.5) | Rust · MCP · Next.js · Tauri |
 | [**Moss**](https://github.com/EthanRodrigues001/moss) | Local-first LaTeX editor for Windows: compiles on your PC, syncs with Overleaf and has an MCP server so AI agents can edit projects with restore points (beta) | Tauri · Rust · Next.js · TipTap · CodeMirror |
 | [**HOVR**](https://github.com/EthanRodrigues001/hovr) | Windows notch that shows how much of your Claude, Codex and Cursor usage limits you have left, with pace and forecast (v1.0.4) | Electron · React · Vite · Vitest |
 | [**notToday**](https://github.com/EthanRodrigues001/nottoday) | Android planner that shows only what is due today, counts every slip and suggests deadlines from WhatsApp notifications on-device (v1.0.2) | Expo · React Native · Kotlin |
+| [**Typeset**](https://github.com/EthanRodrigues001/Typeset) | Windows Markdown app with a context graph and agent-readable LAYOUT.md indexes; signed, auto-updating releases via GitHub Actions (v1.0.4) | Tauri · Rust · Next.js · CodeMirror |
 | [**LYX UI**](https://lyx-ui.vercel.app/) | shadcn/ui-based component library + docs | Next.js · Fumadocs · Motion |
+
+**More:**
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**eve-agent-framework**](https://github.com/EthanRodrigues001/eve-agent-framework) | Model-agnostic tool-calling agent with persistent memory | Eve · AI SDK · Neon |
 | [**Blingo**](https://blingo2-0.vercel.app/) | AI project-roadmap generator for hackathon teams | Next.js · Gemini · Appwrite · React Flow |
 | [**shipfuel-ai**](https://shipfuel-ai.vercel.app/) | Ship fuel-consumption prediction from the IISER research (R² 0.98) | FastAPI · XGBoost · Next.js |
 
