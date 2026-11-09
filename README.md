@@ -31,13 +31,9 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 
 ## 💼 Experience
 
-| Role | Where | What I did |
-| --- | --- | --- |
-| **Co-founder, full-stack** | [LetterStack](https://letterstack.site) · open source | Email campaign SaaS built with Krish Pinto, with paying customers. I built the AI editing agent and the Razorpay invoicing. |
-| **Research Intern** | IISER Mohali · Jul 2025 to Jun 2026 | Modelled a Kamsarmax bulk carrier's fuel use on ~83k rows of real telemetry: XGBoost at R² 0.98, and synthetic data cut its error by 17%. Shipped model demos with Streamlit and FastAPI. |
-| **Full-Stack Developer** | Wisplabs, web studio · freelance, 2025 to now | Built and shipped client websites and marketing pages, and ran delivery end to end (Next.js, Tailwind, Vercel). |
-| **Creator and maintainer** | [LYX UI](https://lyx-ui.vercel.app/) · open source, 2024 to now | shadcn-based React component library and its docs site. |
-| **ML Head** | AIDL Club, FCRIT | Mentored 5+ juniors and built the club website. |
+- **Research Intern, IISER Mohali** (Jul 2025 to Jun 2026): ship fuel-consumption models, XGBoost at R² 0.98
+- **Co-founder, [LetterStack](https://letterstack.site):** open-source email SaaS with paying customers
+- **Full-Stack Developer, Wisplabs** (freelance, 2025 to now) and creator of **[LYX UI](https://lyx-ui.vercel.app/)**
 
 ## 🤖 What I build with AI
 
@@ -61,13 +57,6 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 | [**Typeset**](https://github.com/EthanRodrigues001/Typeset) | Windows Markdown app with a context graph and agent-readable LAYOUT.md indexes; signed, auto-updating releases via GitHub Actions (v1.0.4) | Tauri · Rust · Next.js · CodeMirror |
 | [**LYX UI**](https://lyx-ui.vercel.app/) | shadcn/ui-based component library + docs | Next.js · Fumadocs · Motion |
 
-**More:**
-
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [**eve-agent-framework**](https://github.com/EthanRodrigues001/eve-agent-framework) | Model-agnostic tool-calling agent with persistent memory | Eve · AI SDK · Neon |
-| [**Blingo**](https://blingo2-0.vercel.app/) | AI project-roadmap generator for hackathon teams | Next.js · Gemini · Appwrite · React Flow |
-| [**shipfuel-ai**](https://shipfuel-ai.vercel.app/) | Ship fuel-consumption prediction from the IISER research (R² 0.98) | FastAPI · XGBoost · Next.js |
 
 ## 🧰 Tech stack
 
