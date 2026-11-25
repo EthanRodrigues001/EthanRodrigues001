@@ -12,43 +12,46 @@
 
 # やあ, I'm Ethan 🐼
 
-I'm a full-stack and AI engineer in my final year of Computer Engineering at FCRIT, Navi Mumbai (class of 2027). I build products where an LLM does real work: agents that call typed tools and change real data, inside TypeScript, Next.js and Postgres apps, plus the Rust and desktop tooling around them.
+I'm a full-stack and AI engineer in my final year of Computer Engineering at FCRIT, Navi Mumbai (class of 2027). I build tools for AI coding agents, mostly in Rust and TypeScript: [Moss](https://github.com/EthanRodrigues001/moss) is a local-first LaTeX editor with an MCP server so agents can edit projects, and [HOVR](https://github.com/EthanRodrigues001/hovr) is a Windows notch that shows how much of your Claude Code, Codex and Cursor usage limits you have left. I also build [LetterStack](https://letterstack.site), an email campaign app with a Notion-style editor.
 
-I'm looking for a full-time software engineering role building AI products. The best way to reach me is [email](mailto:ethanrodrigues25@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ethan-rodrigues25/).
+Open to internships. The best way to reach me is [email](mailto:ethanrodrigues25@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ethan-rodrigues25/).
 
 I also build *with* AI: Claude Code and Codex are part of my daily workflow, and I work across Claude, GPT and Gemini models depending on the job.
 
 - 🤖 Model-agnostic agents on the Vercel AI SDK, with the limits that keep them safe: quotas, step caps, human approval
-- 🚢 Research intern at IISER Mohali (2025-26): fuel-consumption models for a Kamsarmax bulk carrier on ~83k rows of real telemetry, XGBoost at R² 0.98
-- 🦀 Rust services (Axum, Tokio) and Tauri desktop apps
+- 🚢 Research intern at IISER Mohali (2025-26): fuel-consumption models on real ship telemetry with XGBoost
+- 🦀 Rust CLI and MCP servers and Tauri desktop apps
 - ⚙️ GitHub Actions release pipelines, signed auto-updates, Docker deploys
-- 📬 Co-founded [LetterStack](https://letterstack.site) with Krish Pinto: open source, with paying customers
+- 📬 Built [LetterStack](https://letterstack.site), an email campaign app with a Notion-style editor
 - 🧩 Built LYX UI, a shadcn-based React component library
 - 🎨 UI/UX design in Figma, as a hobby
 - 🎧 Off the keyboard: music and anime
 
-**By the numbers:** 66 public repos and 900+ public commits. Four apps shipped since mid-October (Profileinator, Moss, HOVR, notToday). 58 typed MCP tools in Profileinator. R² 0.98 on ~83k rows of ship telemetry at IISER. LetterStack is ~72k lines with paying customers.
+**By the numbers:** 67 public repos. Four apps shipped since mid-October (Moss, HOVR, notToday, Profileinator).
 
 ## 🤖 What I build with AI
 
-- **Agents inside products.** [LetterStack](https://github.com/krishpinto/Letterstack)'s email editor has an agent that edits the document through typed tools. Tool calls run in the browser so edits are instant, while the server keeps the API key, per-org quotas, a usage ledger and a hard step ceiling.
+- **Agents inside products.** [letterstack-components](https://github.com/EthanRodrigues001/letterstack-components) is the LetterStack email editor as an installable shadcn registry, with an optional AI assistant on the Vercel AI SDK and Gemini. The key you paste stays in your browser.
 - **Tool-calling agents with memory.** [eve-agent-framework](https://github.com/EthanRodrigues001/eve-agent-framework): a model-agnostic agent on Vercel's Eve framework where each new skill is one typed tool file, with notes persisted in Neon Postgres, usable from a web UI, an HTTP API or a terminal REPL.
-- **MCP servers for agents.** [Profileinator](https://github.com/EthanRodrigues001/profileinator) is a Rust MCP server (stdio and HTTP) that gives agents my profile, projects and knowledge graph through typed tools. [Moss](https://github.com/EthanRodrigues001/moss) lets agents read, edit and compile LaTeX projects, taking a restore point before every change and waiting for my approval before deleting files.
-- **Durable agent workflows.** Career OS (in progress): multi-step agent runs on Workflow DevKit that survive restarts and can be replayed, with an approval gate before anything is sent to the outside world.
+- **MCP servers for agents.** [Moss](https://github.com/EthanRodrigues001/moss) lets agents read, edit and compile LaTeX projects, taking a restore point before every change and waiting for my approval before deleting files. [Profileinator](https://github.com/EthanRodrigues001/profileinator) is a Rust MCP server (stdio and HTTP) that gives agents my profile, projects and knowledge graph through typed tools.
 - **LLM features that ship.** AI roadmap generation in [Blingo](https://blingo2-0.vercel.app/), AI health summaries from uploaded prescriptions in [HealthSync](https://vybe-coders-health-sync.vercel.app), and an AI schema visualiser with Upstash rate limiting.
-- **Classic ML.** At IISER Mohali I modelled a Kamsarmax bulk carrier's fuel use from real telemetry: XGBoost hit R² 0.98, and synthetic data cut its error by 17%. Served over FastAPI as [shipfuel-ai](https://shipfuel-ai.vercel.app/). Also PyTorch/Keras demand forecasting explained with SHAP and LIME.
-- **Agentic dev workflow.** Claude Code and Codex every day. [Typeset](https://github.com/EthanRodrigues001/Typeset) even writes LAYOUT.md index files so agents can find their way around a notes workspace.
+- **Classic ML.** At IISER Mohali I modelled a ship's main-engine fuel use from real telemetry: XGBoost came out best. Served over FastAPI as [shipfuel-ai](https://shipfuel-ai.vercel.app/). Also PyTorch/Keras demand forecasting explained with SHAP and LIME.
+- **Agentic dev workflow.** Claude Code and Codex every day.
 
 ## 🚀 Featured work
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [**LetterStack**](https://letterstack.site) | Open-source email campaign SaaS I co-founded (~72k lines, paying customers). Built with Krish Pinto; I built the AI editing agent and Razorpay invoicing ([repo](https://github.com/krishpinto/Letterstack)) | Next.js · AI SDK · Neon · AWS SES · Razorpay |
-| [**Profileinator**](https://github.com/EthanRodrigues001/profileinator) | Local-first memory of me for AI agents: profile, projects and a knowledge graph behind an MCP server (58 tools), with a dashboard and a desktop app with signed auto-updates (v0.1.5) | Rust · MCP · Next.js · Tauri |
 | [**Moss**](https://github.com/EthanRodrigues001/moss) | Local-first LaTeX editor for Windows: compiles on your PC, syncs with Overleaf and has an MCP server so AI agents can edit projects with restore points (beta) | Tauri · Rust · Next.js · TipTap · CodeMirror |
 | [**HOVR**](https://github.com/EthanRodrigues001/hovr) | Windows notch that shows how much of your Claude, Codex and Cursor usage limits you have left, with pace and forecast (v1.0.4) | Electron · React · Vite · Vitest |
+| [**LetterStack**](https://letterstack.site) | Email campaign app with a Notion-style block editor and an AI assistant. The editor is open source as [letterstack-components](https://github.com/EthanRodrigues001/letterstack-components) | Next.js · AI SDK · Neon · AWS SES |
+
+## 🗂️ More projects
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**Profileinator**](https://github.com/EthanRodrigues001/profileinator) | Local-first memory of me for AI agents: profile, projects and a knowledge graph behind an MCP server (58 tools), with a dashboard and a desktop app with signed auto-updates (v0.1.5) | Rust · MCP · Next.js · Tauri |
 | [**notToday**](https://github.com/EthanRodrigues001/nottoday) | Android planner that shows only what is due today, counts every slip and suggests deadlines from WhatsApp notifications on-device (v1.0.2) | Expo · React Native · Kotlin |
-| [**Typeset**](https://github.com/EthanRodrigues001/Typeset) | Windows Markdown app with a context graph and agent-readable LAYOUT.md indexes; signed, auto-updating releases via GitHub Actions (v1.0.4) | Tauri · Rust · Next.js · CodeMirror |
 | [**LYX UI**](https://lyx-ui.vercel.app/) | shadcn/ui-based component library + docs | Next.js · Fumadocs · Motion |
 
 
@@ -71,28 +74,18 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 
 **Backend & systems**<br/>
 <img alt="Node.js" src="https://shieldcn.dev/badge/Node.js-5FA04E.svg?logo=nodedotjs&amp;logoColor=fff&amp;variant=branded&amp;brand=nodedotjs&amp;size=xs" />
-<img alt="Axum" src="https://shieldcn.dev/badge/Axum-000000.svg?logo=rust&amp;logoColor=fff&amp;variant=branded&amp;brand=rust&amp;size=xs" />
-<img alt="Tokio" src="https://shieldcn.dev/badge/Tokio-000000.svg?logo=rust&amp;logoColor=fff&amp;variant=branded&amp;brand=rust&amp;size=xs" />
 <img alt="FastAPI" src="https://shieldcn.dev/badge/FastAPI-009688.svg?logo=fastapi&amp;logoColor=fff&amp;variant=branded&amp;brand=fastapi&amp;size=xs" />
-<img alt="WebAssembly" src="https://shieldcn.dev/badge/WebAssembly-654FF0.svg?logo=webassembly&amp;logoColor=fff&amp;variant=branded&amp;brand=webassembly&amp;size=xs" />
-<img alt="Socket.IO" src="https://shieldcn.dev/badge/Socket.IO-010101.svg?logo=socketdotio&amp;logoColor=fff&amp;variant=branded&amp;brand=socketdotio&amp;size=xs" />
-<img alt="Razorpay" src="https://shieldcn.dev/badge/Razorpay-0C2451.svg?logo=razorpay&amp;logoColor=fff&amp;variant=branded&amp;brand=razorpay&amp;size=xs" />
 
 **Data**<br/>
 <img alt="PostgreSQL" src="https://shieldcn.dev/badge/PostgreSQL-4169E1.svg?logo=postgresql&amp;logoColor=fff&amp;variant=branded&amp;brand=postgresql&amp;size=xs" />
 <img alt="Neon" src="https://shieldcn.dev/badge/Neon-00E599.svg?logo=neon&amp;logoColor=fff&amp;variant=branded&amp;brand=neon&amp;size=xs" />
-<img alt="MongoDB" src="https://shieldcn.dev/badge/MongoDB-47A248.svg?logo=mongodb&amp;logoColor=fff&amp;variant=branded&amp;brand=mongodb&amp;size=xs" />
 <img alt="Drizzle ORM" src="https://shieldcn.dev/badge/Drizzle%20ORM-C5F74F.svg?logo=drizzle&amp;logoColor=fff&amp;variant=branded&amp;brand=drizzle&amp;size=xs" />
-<img alt="Supabase" src="https://shieldcn.dev/badge/Supabase-3FCF8E.svg?logo=supabase&amp;logoColor=fff&amp;variant=branded&amp;brand=supabase&amp;size=xs" />
 <img alt="Firebase" src="https://shieldcn.dev/badge/Firebase-FFCA28.svg?logo=firebase&amp;logoColor=fff&amp;variant=branded&amp;brand=firebase&amp;size=xs" />
-<img alt="Redis" src="https://shieldcn.dev/badge/Redis-FF4438.svg?logo=redis&amp;logoColor=fff&amp;variant=branded&amp;brand=redis&amp;size=xs" />
 
 **Desktop & mobile**<br/>
 <img alt="Tauri" src="https://shieldcn.dev/badge/Tauri-24C8D8.svg?logo=tauri&amp;logoColor=fff&amp;variant=branded&amp;brand=tauri&amp;size=xs" />
-<img alt="Electron" src="https://shieldcn.dev/badge/Electron-47848F.svg?logo=electron&amp;logoColor=fff&amp;variant=branded&amp;brand=electron&amp;size=xs" />
 <img alt="Expo" src="https://shieldcn.dev/badge/Expo-000020.svg?logo=expo&amp;logoColor=fff&amp;variant=branded&amp;brand=expo&amp;size=xs" />
 <img alt="React Native" src="https://shieldcn.dev/badge/React%20Native-61DAFB.svg?logo=react&amp;logoColor=fff&amp;variant=branded&amp;brand=react&amp;size=xs" />
-<img alt="WXT extensions" src="https://shieldcn.dev/badge/WXT%20extensions-4285F4.svg?logo=googlechrome&amp;logoColor=fff&amp;variant=branded&amp;brand=googlechrome&amp;size=xs" />
 
 **AI & ML**<br/>
 <img alt="Vercel AI SDK" src="https://shieldcn.dev/badge/Vercel%20AI%20SDK-000000.svg?logo=vercel&amp;logoColor=fff&amp;variant=branded&amp;brand=vercel&amp;size=xs" />
@@ -104,17 +97,25 @@ I also build *with* AI: Claude Code and Codex are part of my daily workflow, and
 <img alt="PyTorch" src="https://shieldcn.dev/badge/PyTorch-EE4C2C.svg?logo=pytorch&amp;logoColor=fff&amp;variant=branded&amp;brand=pytorch&amp;size=xs" />
 
 **CI/CD & infra**<br/>
-<img alt="AWS" src="https://shieldcn.dev/badge/AWS%20(SES%2C%20SNS)-232F3E.svg?logo=false&amp;variant=branded&amp;size=xs" />
+<img alt="AWS SES" src="https://shieldcn.dev/badge/AWS%20SES-232F3E.svg?logo=false&amp;variant=branded&amp;size=xs" />
 <img alt="GitHub Actions" src="https://shieldcn.dev/badge/GitHub%20Actions-2088FF.svg?logo=githubactions&amp;logoColor=fff&amp;variant=branded&amp;brand=githubactions&amp;size=xs" />
 <img alt="Docker" src="https://shieldcn.dev/badge/Docker-2496ED.svg?logo=docker&amp;logoColor=fff&amp;variant=branded&amp;brand=docker&amp;size=xs" />
 <img alt="Vercel" src="https://shieldcn.dev/badge/Vercel-000000.svg?logo=vercel&amp;logoColor=fff&amp;variant=branded&amp;brand=vercel&amp;size=xs" />
-<img alt="Render" src="https://shieldcn.dev/badge/Render-000000.svg?logo=render&amp;logoColor=fff&amp;variant=branded&amp;brand=render&amp;size=xs" />
 <img alt="Vite" src="https://shieldcn.dev/badge/Vite-646CFF.svg?logo=vite&amp;logoColor=fff&amp;variant=branded&amp;brand=vite&amp;size=xs" />
 <img alt="Vitest" src="https://shieldcn.dev/badge/Vitest-6E9F18.svg?logo=vitest&amp;logoColor=fff&amp;variant=branded&amp;brand=vitest&amp;size=xs" />
 
+**Tried or past (not my current stack)**<br/>
+<img alt="MongoDB" src="https://shieldcn.dev/badge/MongoDB-47A248.svg?logo=mongodb&amp;logoColor=fff&amp;variant=branded&amp;brand=mongodb&amp;size=xs" />
+<img alt="Supabase" src="https://shieldcn.dev/badge/Supabase-3FCF8E.svg?logo=supabase&amp;logoColor=fff&amp;variant=branded&amp;brand=supabase&amp;size=xs" />
+<img alt="Socket.IO" src="https://shieldcn.dev/badge/Socket.IO-010101.svg?logo=socketdotio&amp;logoColor=fff&amp;variant=branded&amp;brand=socketdotio&amp;size=xs" />
+<img alt="Redis" src="https://shieldcn.dev/badge/Redis-FF4438.svg?logo=redis&amp;logoColor=fff&amp;variant=branded&amp;brand=redis&amp;size=xs" />
+<img alt="Electron" src="https://shieldcn.dev/badge/Electron-47848F.svg?logo=electron&amp;logoColor=fff&amp;variant=branded&amp;brand=electron&amp;size=xs" />
+<img alt="WXT extensions" src="https://shieldcn.dev/badge/WXT%20extensions-4285F4.svg?logo=googlechrome&amp;logoColor=fff&amp;variant=branded&amp;brand=googlechrome&amp;size=xs" />
+<img alt="Axum" src="https://shieldcn.dev/badge/Axum-000000.svg?logo=rust&amp;logoColor=fff&amp;variant=branded&amp;brand=rust&amp;size=xs" />
+<img alt="Tokio" src="https://shieldcn.dev/badge/Tokio-000000.svg?logo=rust&amp;logoColor=fff&amp;variant=branded&amp;brand=rust&amp;size=xs" />
+
 ### ⚙️ How I ship
 
-- **Tagged releases → signed desktop builds.** In [Typeset](https://github.com/EthanRodrigues001/Typeset), pushing a `v*` tag runs a GitHub Actions workflow that sets up Node and the Rust toolchain, builds the Tauri app on Windows, signs it for the auto-updater with keys kept in repo secrets, and publishes a GitHub Release that installed copies update from.
 - **Containerised Rust service.** [moss-web](https://github.com/EthanRodrigues001/moss-web), the web version of Moss, runs a LaTeX compile backend written in Rust (Axum + Tokio). It ships as a Docker image on Render as infrastructure-as-code (`render.yaml`), with health checks, upload limits and compile timeouts.
 - **Deploy automation.** Vercel preview and production deploys on every project, plus a GitHub Actions deploy hook that works around Vercel's single-owner build limit on team repos.
 - **Quality gates.** TypeScript strict mode, ESLint/Biome, Vitest + Testing Library, Zod at API boundaries.
