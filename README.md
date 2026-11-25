@@ -12,40 +12,45 @@
 
 # やあ, I'm Ethan 🐼
 
-I'm a full-stack and AI engineer in my final year of Computer Engineering at FCRIT, Navi Mumbai (class of 2027). I build products where an LLM does real work: agents that call typed tools and change real data, inside TypeScript, Next.js and Postgres apps, plus the Rust and desktop tooling around them.
+I'm a full-stack and AI engineer in my final year of Computer Engineering at FCRIT, Navi Mumbai (class of 2027). I build tools for AI coding agents, mostly in Rust and TypeScript: [Moss](https://github.com/EthanRodrigues001/moss) is a local-first LaTeX editor with an MCP server so agents can edit projects, and [HOVR](https://github.com/EthanRodrigues001/hovr) is a Windows notch that shows how much of your Claude Code, Codex and Cursor usage limits you have left. I also build [LetterStack](https://letterstack.site), an email campaign app with a Notion-style editor.
 
-I'm looking for a full-time software engineering role building AI products. The best way to reach me is [email](mailto:ethanrodrigues25@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ethan-rodrigues25/).
+Open to internships. The best way to reach me is [email](mailto:ethanrodrigues25@gmail.com) or [LinkedIn](https://www.linkedin.com/in/ethan-rodrigues25/).
 
 I also build *with* AI: Claude Code and Codex are part of my daily workflow, and I work across Claude, GPT and Gemini models depending on the job.
 
 - 🤖 Model-agnostic agents on the Vercel AI SDK, with the limits that keep them safe: quotas, step caps, human approval
-- 🚢 Research intern at IISER Mohali (2025-26): fuel-consumption models on real ship telemetry, XGBoost at R² 0.98
+- 🚢 Research intern at IISER Mohali (2025-26): fuel-consumption models on real ship telemetry with XGBoost
 - 🦀 Rust CLI and MCP servers and Tauri desktop apps
 - ⚙️ GitHub Actions release pipelines, signed auto-updates, Docker deploys
-- 📬 Co-founded [LetterStack](https://letterstack.site) with Krish Pinto: open source, with paying customers
+- 📬 Built [LetterStack](https://letterstack.site), an email campaign app with a Notion-style editor
 - 🧩 Built LYX UI, a shadcn-based React component library
 - 🎨 UI/UX design in Figma, as a hobby
 - 🎧 Off the keyboard: music and anime
 
-**By the numbers:** 67 public repos. Four apps shipped since mid-October (Profileinator, Moss, HOVR, notToday). 58 typed MCP tools in Profileinator. R² 0.98 on ship telemetry at IISER. LetterStack is ~72k lines with paying customers.
+**By the numbers:** 67 public repos. Four apps shipped since mid-October (Moss, HOVR, notToday, Profileinator).
 
 ## 🤖 What I build with AI
 
-- **Agents inside products.** [LetterStack](https://github.com/krishpinto/Letterstack)'s email editor has an agent that edits the document through typed tools. Tool calls run in the browser so edits are instant, while the server keeps the API key, per-org quotas, a usage ledger and a hard step ceiling.
+- **Agents inside products.** [letterstack-components](https://github.com/EthanRodrigues001/letterstack-components) is the LetterStack email editor as an installable shadcn registry, with an optional AI assistant on the Vercel AI SDK and Gemini. The key you paste stays in your browser.
 - **Tool-calling agents with memory.** [eve-agent-framework](https://github.com/EthanRodrigues001/eve-agent-framework): a model-agnostic agent on Vercel's Eve framework where each new skill is one typed tool file, with notes persisted in Neon Postgres, usable from a web UI, an HTTP API or a terminal REPL.
-- **MCP servers for agents.** [Profileinator](https://github.com/EthanRodrigues001/profileinator) is a Rust MCP server (stdio and HTTP) that gives agents my profile, projects and knowledge graph through typed tools. [Moss](https://github.com/EthanRodrigues001/moss) lets agents read, edit and compile LaTeX projects, taking a restore point before every change and waiting for my approval before deleting files.
+- **MCP servers for agents.** [Moss](https://github.com/EthanRodrigues001/moss) lets agents read, edit and compile LaTeX projects, taking a restore point before every change and waiting for my approval before deleting files. [Profileinator](https://github.com/EthanRodrigues001/profileinator) is a Rust MCP server (stdio and HTTP) that gives agents my profile, projects and knowledge graph through typed tools.
 - **LLM features that ship.** AI roadmap generation in [Blingo](https://blingo2-0.vercel.app/), AI health summaries from uploaded prescriptions in [HealthSync](https://vybe-coders-health-sync.vercel.app), and an AI schema visualiser with Upstash rate limiting.
-- **Classic ML.** At IISER Mohali I modelled a ship's main-engine fuel use from real telemetry: XGBoost hit R² 0.98 on held-out data. Served over FastAPI as [shipfuel-ai](https://shipfuel-ai.vercel.app/). Also PyTorch/Keras demand forecasting explained with SHAP and LIME.
+- **Classic ML.** At IISER Mohali I modelled a ship's main-engine fuel use from real telemetry: XGBoost came out best. Served over FastAPI as [shipfuel-ai](https://shipfuel-ai.vercel.app/). Also PyTorch/Keras demand forecasting explained with SHAP and LIME.
 - **Agentic dev workflow.** Claude Code and Codex every day.
 
 ## 🚀 Featured work
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [**LetterStack**](https://letterstack.site) | Open-source email campaign SaaS I co-founded (~72k lines, paying customers). Built with Krish Pinto; I built the AI editing agent and Razorpay invoicing ([repo](https://github.com/krishpinto/Letterstack)) | Next.js · AI SDK · Neon · AWS SES · Razorpay |
-| [**Profileinator**](https://github.com/EthanRodrigues001/profileinator) | Local-first memory of me for AI agents: profile, projects and a knowledge graph behind an MCP server (58 tools), with a dashboard and a desktop app with signed auto-updates (v0.1.5) | Rust · MCP · Next.js · Tauri |
 | [**Moss**](https://github.com/EthanRodrigues001/moss) | Local-first LaTeX editor for Windows: compiles on your PC, syncs with Overleaf and has an MCP server so AI agents can edit projects with restore points (beta) | Tauri · Rust · Next.js · TipTap · CodeMirror |
 | [**HOVR**](https://github.com/EthanRodrigues001/hovr) | Windows notch that shows how much of your Claude, Codex and Cursor usage limits you have left, with pace and forecast (v1.0.4) | Electron · React · Vite · Vitest |
+| [**LetterStack**](https://letterstack.site) | Email campaign app with a Notion-style block editor and an AI assistant. The editor is open source as [letterstack-components](https://github.com/EthanRodrigues001/letterstack-components) | Next.js · AI SDK · Neon · AWS SES |
+
+## 🗂️ More projects
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**Profileinator**](https://github.com/EthanRodrigues001/profileinator) | Local-first memory of me for AI agents: profile, projects and a knowledge graph behind an MCP server (58 tools), with a dashboard and a desktop app with signed auto-updates (v0.1.5) | Rust · MCP · Next.js · Tauri |
 | [**notToday**](https://github.com/EthanRodrigues001/nottoday) | Android planner that shows only what is due today, counts every slip and suggests deadlines from WhatsApp notifications on-device (v1.0.2) | Expo · React Native · Kotlin |
 | [**LYX UI**](https://lyx-ui.vercel.app/) | shadcn/ui-based component library + docs | Next.js · Fumadocs · Motion |
 
